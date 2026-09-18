@@ -1,0 +1,13 @@
+spec_uri: https://raw.githubusercontent.com/cliffano/swaggy-c/main/examples/oag-file-spec/specification/google.yml
+version: 0.9.0-pre.0
+contact:
+  name: Site24x7 Users
+  url: https://github.com/oapicf/site24x7users
+  email: blah+oapicf@cliffano.com
+scm:
+  git_user: oapicf
+  git_repo: site24x7users
+base_dir:
+  github_actions: /home/runner/work/site24x7users/site24x7users/
+  local: $HOME/dev/workspace-oapicf/generator-openapi-generator/stage/site24x7users
+  custom: /home/runner/work/generator-openapi-generator/generator-openapi-generator/stage/site24x7users/
