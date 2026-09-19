@@ -1,0 +1,42 @@
+package org.openapitools.api;
+
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
+import jakarta.inject.Inject;
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.HashSet;
+
+/**
+ * API tests for DefaultApi
+ */
+@MicronautTest
+public class DefaultApiTest {
+
+    @Inject
+    DefaultApi api;
+
+    
+    /**
+     * Search with a query
+     */
+    @Test
+    @Disabled("Not Implemented")
+    public void searchTest() {
+        // given
+        String q = "example";
+
+        // when
+        String body = api.search(q).block();
+
+        // then
+        // TODO implement the searchTest()
+    }
+
+    
+}

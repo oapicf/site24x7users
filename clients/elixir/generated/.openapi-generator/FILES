@@ -1,0 +1,12 @@
+.formatter.exs
+.gitignore
+.openapi-generator-ignore
+README.md
+config/config.exs
+config/runtime.exs
+lib/swaggy_c_example/api/default.ex
+lib/swaggy_c_example/connection.ex
+lib/swaggy_c_example/deserializer.ex
+lib/swaggy_c_example/request_builder.ex
+mix.exs
+test/test_helper.exs

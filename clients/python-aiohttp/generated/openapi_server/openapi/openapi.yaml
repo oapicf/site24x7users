@@ -1,0 +1,36 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: blah+oapicf@cliffano.com
+    name: Site24x7 Users
+    url: https://github.com/oapicf/site24x7users
+  description: Example OpenAPI specification for Swaggy C using Google Search
+  license:
+    name: MIT
+  title: swaggy-c-example
+  version: 0.0.1-pre.0
+servers:
+- url: https://google.com
+paths:
+  /search:
+    get:
+      operationId: search
+      parameters:
+      - explode: true
+        in: query
+        name: q
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          content:
+            text/plain:
+              schema:
+                type: string
+          description: Search HTML response
+      summary: Search with a query
+      x-openapi-router-controller: openapi_server.controllers.default_controller
+components:
+  schemas: {}

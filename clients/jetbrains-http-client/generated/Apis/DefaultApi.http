@@ -1,0 +1,6 @@
+## DefaultApi
+
+### Search with a query
+## Search with a query
+GET https://google.com/search?q={{q}}
+Accept: text/plain

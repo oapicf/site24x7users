@@ -1,0 +1,14 @@
+.openapi-generator-ignore
+README.md
+lib/Models/Helpers.cpp
+lib/Models/Helpers.h
+lib/service/DefaultApi.cpp
+lib/service/DefaultApi.h
+lib/service/Response.h
+lib/service/Service.cpp
+lib/service/Service.h
+platformio.ini
+pre_compiling_bourne.py
+root.cert
+src/main.cpp
+test/RunTests.cpp

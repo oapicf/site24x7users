@@ -1,0 +1,23 @@
+package org.openapitools.api.impl;
+
+import org.openapitools.api.*;
+
+import java.util.List;
+import org.openapitools.api.NotFoundException;
+
+import java.io.InputStream;
+
+import org.glassfish.jersey.media.multipart.FormDataBodyPart;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.SecurityContext;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJerseyServerCodegen", date = "2026-09-19T00:38:53.662407439Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class SearchApiServiceImpl extends SearchApiService {
+    @Override
+    public Response search( @NotNull String q, SecurityContext securityContext) throws NotFoundException {
+        // do some magic!
+        return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
+    }
+}

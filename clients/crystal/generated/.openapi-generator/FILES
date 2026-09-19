@@ -1,0 +1,16 @@
+.gitignore
+.openapi-generator-ignore
+README.md
+git_push.sh
+shard.yml
+spec/api/search_spec.cr
+spec/spec_helper.cr
+src/openapi_client.cr
+src/openapi_client/api/search.cr
+src/openapi_client/api_error.cr
+src/openapi_client/client.cr
+src/openapi_client/configuration.cr
+src/openapi_client/connection.cr
+src/openapi_client/response.cr
+src/openapi_client/serializable.cr
+src/openapi_client/validation.cr

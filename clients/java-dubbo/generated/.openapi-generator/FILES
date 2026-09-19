@@ -1,0 +1,8 @@
+README.md
+pom.xml
+src/main/java/org/openapitools/OpenApiGeneratorApplication.java
+src/main/java/org/openapitools/api/consumer/SearchServiceController.java
+src/main/java/org/openapitools/api/interfaces/SearchService.java
+src/main/java/org/openapitools/api/provider/SearchServiceImpl.java
+src/main/resources/application.yml
+src/test/java/org/openapitools/OpenApiGeneratorApplicationTests.java

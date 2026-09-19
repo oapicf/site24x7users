@@ -1,0 +1,4 @@
+.openapi-generator-ignore
+README.md
+postgresql_schema.sql
+postgresql_schema_oauth2.sql

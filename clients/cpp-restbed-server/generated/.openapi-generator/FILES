@@ -1,0 +1,9 @@
+.gitignore
+.openapi-generator-ignore
+CMakeLists.txt
+FindRestbedAndBoost.cmake
+README.md
+api/DefaultApi.cpp
+api/DefaultApi.h
+git_push.sh
+model/helpers.h

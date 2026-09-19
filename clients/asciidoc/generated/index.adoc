@@ -1,0 +1,117 @@
+= swaggy-c-example
+blah+oapicf@cliffano.com
+0.0.1-pre.0
+:toc: left
+:numbered:
+:toclevels: 4
+:source-highlighter: highlightjs
+:keywords: openapi, rest, swaggy-c-example
+:specDir: 
+:snippetDir: 
+:generator-template: v1 2019-12-20
+:info-url: https://github.com/oapicf/site24x7users
+:app-name: swaggy-c-example
+
+[abstract]
+.Abstract
+Example OpenAPI specification for Swaggy C using Google Search
+
+
+// markup not found, no include::{specDir}intro.adoc[opts=optional]
+
+
+
+== Endpoints
+
+
+[.Default]
+=== Default
+
+
+[.search]
+==== search
+
+`GET /search`
+
+Search with a query
+
+===== Description
+
+
+
+
+// markup not found, no include::{specDir}search/GET/spec.adoc[opts=optional]
+
+
+
+===== Parameters
+
+
+
+
+
+====== Query Parameters
+
+[cols="2,3,1,1,1"]
+|===
+|Name| Description| Required| Default| Pattern
+
+| q
+|  
+| X
+| null
+| 
+
+|===
+
+
+===== Return Type
+
+
+<<String>>
+
+
+===== Content Type
+
+* text/plain
+
+===== Responses
+
+.HTTP Response Codes
+[cols="2,3,1"]
+|===
+| Code | Message | Datatype
+
+
+| 200
+| Search HTML response
+|  <<String>>
+
+|===
+
+===== Samples
+
+
+// markup not found, no include::{snippetDir}search/GET/http-request.adoc[opts=optional]
+
+
+// markup not found, no include::{snippetDir}search/GET/http-response.adoc[opts=optional]
+
+
+
+// file not found, no * wiremock data link :search/GET/GET.json[]
+
+
+ifdef::internal-generation[]
+===== Implementation
+
+// markup not found, no include::{specDir}search/GET/implementation.adoc[opts=optional]
+
+
+endif::internal-generation[]
+
+
+[#models]
+== Models
+
+

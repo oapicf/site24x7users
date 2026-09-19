@@ -1,0 +1,7 @@
+.openapi-generator-ignore
+README.md
+pom.xml
+src/gen/java/org/openapitools/api/RestApplication.java
+src/gen/java/org/openapitools/api/RestResourceRoot.java
+src/gen/java/org/openapitools/api/SearchApi.java
+src/main/openapi/openapi.yaml

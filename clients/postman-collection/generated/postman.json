@@ -1,0 +1,79 @@
+{
+	"info": {
+		"name": "swaggy-c-example",
+		"description": {
+		    "content": "Example OpenAPI specification for Swaggy C using Google Search",
+		    "type": "text/markdown"
+		},
+		"version": "0.0.1-pre.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+	        {
+	            "name": "default",
+	            "description": "default tag",
+	            "item": [
+	                        {
+    "name": "/search",
+                "description": "",
+                 "item": [
+                            {
+                                "name": "Search with a query",
+                                "request": {
+    "method": "GET",
+    "header": [
+        {
+        "key": "Accept",
+        "value": "text/plain",
+        "description": "",
+        "disabled": false
+        }
+    ],
+    "body": {
+    "mode": "raw",
+    "raw": "",
+    "options": {
+    "raw": {
+    "language": "json"
+    }
+    }
+    },
+    "url": {
+    "raw": "{{baseUrl}}/search",
+    "host": [
+    "{{baseUrl}}"
+    ],
+    "path": [
+        "search"
+    ],
+    "variable": [
+    ],
+    "query": [
+        {
+        "key": "q",
+        "value": "q_example",
+        "description": "",
+        "disabled": false
+        }
+    ]
+    },
+    "description": ""
+}
+                                ,"response": [
+                            ]
+                            }
+                            ]
+                        }
+	                    ]
+	        }
+    ],
+    
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://google.com",
+			"type": "string"
+        }
+	]
+}
+

@@ -1,0 +1,6 @@
+.gitignore
+.openapi-generator-ignore
+git_push.sh
+project.clj
+src/swaggy_c_example/api/default.clj
+src/swaggy_c_example/core.clj

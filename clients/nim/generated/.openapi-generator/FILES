@@ -1,0 +1,8 @@
+.openapi-generator-ignore
+README.md
+config.nim
+openapiclient.nim
+openapiclient/apis/api_default.nim
+openapiclient/models/model_any_type.nim
+openapiclient/models/model_object.nim
+sample_client.nim

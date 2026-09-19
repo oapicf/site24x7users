@@ -1,0 +1,18 @@
+{application, openapi,
+ [{description, "Example OpenAPI specification for Swaggy C using Google Search"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+    [kernel,
+     stdlib,
+     ssl,
+     hackney,
+     ctx
+    ]},
+  {env, [{host, "google.com"}]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["MIT"]},
+  {links, ["https://github.com/oapicf/site24x7users"]}
+]}.

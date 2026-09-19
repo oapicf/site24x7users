@@ -1,0 +1,58 @@
+h1. swaggy-c-example
+
+Example OpenAPI specification for Swaggy C using Google Search
+
+*Version:* 0.0.1-pre.0
+
+----
+
+{expand:Table of Contents - Click to expand}
+{toc:printable=true|style=square|minLevel=2|maxLevel=3|type=list|outline=false|include=.*}
+{expand}
+
+h2. Endpoints
+
+
+h3. search
+{panel:title=search|borderStyle=solid|borderColor=#003b6f|titleBGColor=#003b6f|titleColor=#a6b8c7|bgColor=#ffffff}
+    *Summary:* Search with a query
+    *Description:* *No Description*
+
+	|| HttpMethod | {status:colour=Yellow|title=get|subtle=false} |
+    || Protocol | {noformat:nopanel=true}https{noformat} |
+    || Path | {noformat:nopanel=true}/search{noformat} |
+    || Base Path | {noformat:nopanel=true}https://google.com{noformat} |
+    || Produces | {noformat:nopanel=true}text/plain {noformat} |
+----
+h4. Parameters
+
+
+
+h5. Query Parameters
+        ||Name||Description||Type||Required||Default||Pattern||Enum||Example||
+        |q | | String | (/) |null |  |  |
+----
+h4. Responses
+
+    	|| Status Code | {status:colour=Green|title=200|subtle=false} |
+    	|| Message | Search HTML response |
+    	|| Response Type | String |
+    	|| Response Model | [String Model|#StringModelAnchor|Jump to model] |
+    	|| Response Schema | {code:collapse=true}{
+  "description" : "Search HTML response",
+  "content" : {
+    "text/plain" : {
+      "schema" : {
+        "type" : "string"
+      }
+    }
+  }
+}{code} |
+       
+
+{panel}
+
+
+{anchor:models}
+h2. Models
+

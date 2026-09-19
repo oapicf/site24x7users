@@ -1,0 +1,8 @@
+.openapi-generator-ignore
+README.md
+docs/DefaultApi.md
+pom.xml
+src/main/java/org/openapitools/server/api/ApiException.java
+src/main/java/org/openapitools/server/api/ApiExceptionMapper.java
+src/main/java/org/openapitools/server/api/DefaultApi.java
+src/test/java/org/openapitools/server/api/DefaultApiTest.java

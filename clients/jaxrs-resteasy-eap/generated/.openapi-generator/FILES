@@ -1,0 +1,11 @@
+.openapi-generator-ignore
+README.md
+build.gradle
+pom.xml
+settings.gradle
+src/gen/java/org/openapitools/api/SearchApi.java
+src/main/java/org/openapitools/api/JacksonConfig.java
+src/main/java/org/openapitools/api/RestApplication.java
+src/main/java/org/openapitools/api/impl/SearchApiServiceImpl.java
+src/main/webapp/WEB-INF/jboss-web.xml
+src/main/webapp/WEB-INF/web.xml

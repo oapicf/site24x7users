@@ -1,0 +1,7 @@
+.openapi-generator-ignore
+pom.xml
+src/gen/java/org/openapitools/api/SearchApi.java
+src/gen/java/org/openapitools/api/SearchApiService.java
+src/main/java/org/openapitools/api/RestApplication.java
+src/main/java/org/openapitools/api/impl/SearchApiServiceImpl.java
+src/main/webapp/WEB-INF/beans.xml

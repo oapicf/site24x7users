@@ -1,0 +1,6 @@
+.openapi-generator-ignore
+README.md
+docs/DefaultApi.md
+src/APIClient.jl
+src/apis/api_DefaultApi.jl
+src/modelincludes.jl

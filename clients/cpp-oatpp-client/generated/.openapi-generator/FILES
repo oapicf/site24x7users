@@ -1,0 +1,5 @@
+.openapi-generator-ignore
+CMakeLists.txt
+README.md
+api/DefaultApi.hpp
+main-api-client.cpp

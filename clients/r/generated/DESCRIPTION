@@ -1,0 +1,15 @@
+Package: openapi
+Title: R Package Client for swaggy-c-example
+Version: 1.0.0
+Author: person("Site24x7 Users", email = "blah+oapicf@cliffano.com", role = c("aut", "cre"))
+Maintainer: Site24x7 Users <blah+oapicf@cliffano.com>
+Description: Example OpenAPI specification for Swaggy C using Google Search
+URL: https://github.com/null/null
+BugReports: https://github.com/null/null/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: MIT
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc, stringr
+RoxygenNote: 7.2.1

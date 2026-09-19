@@ -1,0 +1,7 @@
+.openapi-generator-ignore
+README.md
+Setup.hs
+lib/Swaggy-c-example/API.hs
+lib/Swaggy-c-example/Types.hs
+stack.yaml
+swaggy-c-example.cabal
