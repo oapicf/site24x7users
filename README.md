@@ -1,9 +1,9 @@
 <!-- BEGIN:AVATAR -->
-To be populated by generator-openapi-generator oag-url-spec-partials
+![Avatar](avatar.jpg)
 <!-- END:AVATAR -->
 
 <!-- BEGIN:BADGES -->
-To be populated by generator-openapi-generator oag-url-spec-partials
+[![Build Status](https://github.com/oapicf/site24x7users/actions/workflows/ci-workflow.yaml/badge.svg)](https://github.com/oapicf/site24x7users/actions/workflows/ci-workflow.yaml)
 <!-- END:BADGES -->
 
 Site24x7 Users
@@ -56,7 +56,7 @@ Colophon
 --------
 
 <!-- BEGIN:BUILD_REPORTS -->
-To be populated by generator-openapi-generator oag-url-spec-partials
+* [API Documentation](https://oapicf.github.io/site24x7users/api/latest/)
 <!-- END:BUILD_REPORTS -->
 
 * [API Documentation](https://oapicf.github.io/site24x7users/api/latest/)

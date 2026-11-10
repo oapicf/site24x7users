@@ -1,7 +1,8 @@
-spec_uri: https://raw.githubusercontent.com/cliffano/swaggy-c/main/examples/oag-file-spec/specification/google.yml
+---
+spec_uri: https://artifacts.apis.io/site24x7/openapi/site24x7-users-api-openapi.yml
 version: 0.9.0-pre.0
 contact:
-  name: Site24x7 Users
+  name: OpenAPI Clients Factory
   url: https://github.com/oapicf/site24x7users
   email: blah+oapicf@cliffano.com
 scm:
@@ -9,5 +10,19 @@ scm:
   git_repo: site24x7users
 base_dir:
   github_actions: /home/runner/work/site24x7users/site24x7users/
-  local: $HOME/dev/workspace-oapicf/generator-openapi-generator/stage/site24x7users
+  local: /Users/cliffano/dev/workspace-oapicf/generator-openapi-generator/stage/site24x7users
   custom: /home/runner/work/generator-openapi-generator/generator-openapi-generator/stage/site24x7users/
+generator:
+  component: oag-url-spec
+  inputs:
+    project_id: site24x7users
+    project_name: Site24x7 Users API Clients
+    project_desc: >-
+      A set of generated client libraries for Site24x7 Users API from their
+      OpenAPI v3 specification
+    author_name: OpenAPI Clients Factory
+    author_email: blah+oapicf@cliffano.com
+    author_url: https://github.com/oapicf
+    github_id: oapicf
+    github_repo: site24x7users
+    github_token_prefix: OAPICF
